@@ -22,7 +22,7 @@ A curated list of papers and open-source resources focused on 3D Gaussian Splatt
 - [Reviews](#reviews)
 - [SLAM](#slam)
 - [Sparse](#sparse)
-- [Navigation and Autonomous Driving](#navigation)
+- [👉 Navigation and Autonomous Driving](#navigation)
 - [Poses](#poses)
 - [Large-Scale](#large-scale)
 
