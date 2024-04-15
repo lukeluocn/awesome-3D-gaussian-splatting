@@ -2728,7 +2728,7 @@ We introduce the Splatter Image, an ultra-fast approach for monocular 3D object 
 
 ## Navigation:
 ## 2024:
-### 1. GaussNav: Gaussian Splatting for Visual Navigation
+### [x] 1. GaussNav: Gaussian Splatting for Visual Navigation
 **Authors**: Xiaohan Lei, Min Wang, Wengang Zhou, Houqiang Li
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2737,7 +2737,7 @@ In embodied vision, Instance ImageGoal Navigation (IIN) requires an agent to loc
 
   [📄 Paper](https://arxiv.org/pdf/2403.11625.pdf) | [🌐 Project Page](https://xiaohanlei.github.io/projects/GaussNav/) | [💻 Code (not yet)](https://xiaohanlei.github.io/projects/GaussNav/)
 
-### 2. 3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization 
+### [x] 2. 3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization 
 **Authors**: Peng Jiang, Gaurav Pandey, Srikanth Saripalli 
 <details span>
 <summary><b>Abstract</b></summary>
