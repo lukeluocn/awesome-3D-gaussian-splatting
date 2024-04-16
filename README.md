@@ -2764,7 +2764,7 @@ Reliable multimodal sensor fusion algorithms re- quire accurate spatiotemporal c
 
   [📄 Paper](https://arxiv.org/pdf/2403.11577)
 
-### 5. [CVPR '24] HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting  
+### [x] 5. [CVPR '24] HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting  
 **Authors**: Hongyu Zhou, Jiahao Shao, Lu Xu, Dongfeng Bai, Weichao Qiu, Bingbing Liu, Yue Wang, Andreas Geiger, Yiyi Liao 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2773,7 +2773,7 @@ Reliable multimodal sensor fusion algorithms re- quire accurate spatiotemporal c
 
   [📄 Paper](https://arxiv.org/pdf/2403.12722.pdf) | [🌐 Project Page](https://xdimlab.github.io/hugs_website/) | [💻 Code (not yet)]()
 
-### 6. HO-Gaussian: Hybrid Optimization of 3D Gaussian Splatting for Urban Scenes  
+### [x] 6. HO-Gaussian: Hybrid Optimization of 3D Gaussian Splatting for Urban Scenes  
 **Authors**: Zhuopeng Li, Yilin Zhang, Chenming Wu, Jianke Zhu, Liangjun Zhang 
 <details span>
 <summary><b>Abstract</b></summary>
