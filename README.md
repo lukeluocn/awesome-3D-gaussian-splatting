@@ -21,8 +21,8 @@ A curated list of papers and open-source resources focused on 3D Gaussian Splatt
 - [Rendering](#rendering)
 - [Reviews](#reviews)
 - [SLAM](#slam)
-- [Sparse](#sparse)
-- [👉 Navigation and Autonomous Driving](#navigation)
+- [👉 Sparse](#sparse)
+- [Navigation and Autonomous Driving](#navigation)
 - [Poses](#poses)
 - [Large-Scale](#large-scale)
 
@@ -1921,7 +1921,7 @@ We present GaSpCT, a novel view synthesis and 3D scene representation method use
   [📄 Paper](https://arxiv.org/pdf/2404.03126)
 
 ## 2023:
-### 1. FisherRF: Active View Selection and Uncertainty Quantification for Radiance Fields using Fisher Information  
+### [-] 1. FisherRF: Active View Selection and Uncertainty Quantification for Radiance Fields using Fisher Information  
 **Authors**: Wen Jiang, Boshu Lei, Kostas Daniilidis 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2746,7 +2746,7 @@ This paper presents a novel system designed for 3D mapping and visual relocaliza
 
   [📄 Paper](https://arxiv.org/pdf/2403.11367)
 
-### 3. Beyond Uncertainty: Risk-Aware Active View Acquisition for Safe Robot Navigation and 3D Scene Understanding with FisherRF  
+### [-] 3. Beyond Uncertainty: Risk-Aware Active View Acquisition for Safe Robot Navigation and 3D Scene Understanding with FisherRF  
 **Authors**: Guangyi Liu, Wen Jiang, Boshu Lei, Vivek Pandey, Kostas Daniilidis, Nader Motee 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2755,7 +2755,7 @@ This work proposes a novel approach to bolster both the robot's risk assessment 
 
   [📄 Paper](https://arxiv.org/pdf/2403.11396)
 
-### 4. 3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration  
+### [-] 4. 3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration  
 **Authors**: Quentin Herau, Moussab Bennehar, Arthur Moreau, Nathan Piasco, Luis Roldao, Dzmitry Tsishkou, Cyrille Migniot, Pascal Vasseur, Cédric Demonceaux 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2782,7 +2782,7 @@ The rapid growth of 3D Gaussian Splatting (3DGS) has revolutionized neural rende
 
   [📄 Paper](https://arxiv.org/pdf/2403.20032.pdf)
 
-### 7. SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior  
+### [x] 7. SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior  
 **Authors**: Zhongrui Yu, Haoran Wang, Jinze Yang, Hanzhang Wang, Zeke Xie, Yunfeng Cai, Jiale Cao, Zhong Ji, Mingming Sun 
 <details span>
 <summary><b>Abstract</b></summary>
