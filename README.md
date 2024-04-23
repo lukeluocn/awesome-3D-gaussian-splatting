@@ -515,6 +515,16 @@ We present HAHA - a novel approach for animatable human avatar generation from m
 
   [📄 Paper](https://arxiv.org/pdf/2404.01053) 
 
+### 11. [CVPRW '24] Gaussian Splatting Decoder for 3D‑aware Generative Adversarial Networks   
+**Authors**: Florian Barthel, Arian Beckmann, Wieland Morgenstern, Anna Hilsmann, Peter Eisert
+ 
+<details span>
+<summary><b>Abstract</b></summary>
+NeRF-based 3D-aware Generative Adversarial Networks like EG3D or GIRAFFE have shown very high rendering quality under large representational variety. However, rendering with Neural Radiance Fields poses several challenges for most 3D applications: First, the significant computational demands of NeRF rendering preclude its use on low-power devices, such as mobiles and VR/AR headsets. Second, implicit representations based on neural networks are difficult to incorporate into explicit 3D scenes, such as VR environments or video games. 3D Gaussian Splatting (3DGS) overcomes these limitations by providing an explicit 3D representation that can be rendered efficiently at high frame rates. In this work, we present a novel approach that combines the high rendering quality of NeRF-based 3D-aware Generative Adversarial Networks with the flexibility and computational advantages of 3DGS. By training a decoder that maps implicit NeRF representations to explicit 3D Gaussian Splatting attributes, we can integrate the representational diversity and quality of 3D GANs into the ecosystem of 3D Gaussian Splatting for the first time. Additionally, our approach allows for a high resolution GAN inversion and real-time GAN editing with 3D Gaussian Splatting scenes.
+</details>
+
+  [📄 Paper](https://arxiv.org/abs/2404.10625) |  [🌐 Project Page](https://florian-barthel.github.io/gaussian_decoder/index.html) | [💻 Code](https://github.com/fraunhoferhhi/gaussian_gan_decoder)
+
 ## 2023:
 ### 1. Drivable 3D Gaussian Avatars 
 **Authors**:  Wojciech Zielonka, Timur Bagautdinov, Shunsuke Saito, Michael Zollhöfer, Justus Thies, Javier Romero
@@ -1541,7 +1551,26 @@ In this paper we present EgoLifter, a novel system that can automatically segmen
 
   [📄 Paper](https://arxiv.org/pdf/2403.18118.pdf) | [🌐 Project Page](https://egolifter.github.io/) | [💻 Code (not yet)]() 
   
+### 10. InFusion: Inpainting 3D Gaussians via Learning Depth Completion from Diffusion Prior 
+**Authors**: Zhiheng Liu, Hao Ouyang, Qiuyu Wang, Ka Leong Cheng, Jie Xiao, Kai Zhu, Nan Xue, Yu Liu, Yujun Shen, Yang Cao
 
+<details span>
+<summary><b>Abstract</b></summary>
+3D Gaussians have recently emerged as an efficient representation for novel view synthesis. This work studies its editability with a particular focus on the inpainting task, which aims to supplement an incomplete set of 3D Gaussians with additional points for visually harmonious rendering. Compared to 2D inpainting, the crux of inpainting 3D Gaussians is to figure out the rendering-relevant properties of the introduced points, whose optimization largely benefits from their initial 3D positions. To this end, we propose to guide the point initialization with an image-conditioned depth completion model, which learns to directly restore the depth map based on the observed image. Such a design allows our model to fill in depth values at an aligned scale with the original depth, and also to harness strong generalizability from largescale diffusion prior. Thanks to the more accurate depth completion, our approach, dubbed InFusion, surpasses existing alternatives with sufficiently better fidelity and efficiency under various complex scenarios. We further demonstrate the effectiveness of InFusion with several practical applications, such as inpainting with user-specific texture or with novel object insertion.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2404.11613) | [🌐 Project Page](https://johanan528.github.io/Infusion/) | [💻 Code](https://github.com/ali-vilab/infusion) 
+
+### 11. Gaga: Group Any Gaussians via 3D-aware Memory Bank
+**Authors**: Weijie Lyu, Xueting Li, Abhijit Kundu, Yi-Hsuan Tsai, Ming-Hsuan Yang
+
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce Gaga, a framework that reconstructs and segments open-world 3D scenes by leveraging inconsistent 2D masks predicted by zero-shot segmentation models. Contrasted to prior 3D scene segmentation approaches that heavily rely on video object tracking, Gaga utilizes spatial information and effectively associates object masks across diverse camera poses. By eliminating the assumption of continuous view changes in training images, Gaga demonstrates robustness to variations in camera poses, particularly beneficial for sparsely sampled images, ensuring precise mask label consistency. Furthermore, Gaga accommodates 2D segmentation masks from diverse sources and demonstrates robust performance with different open-world zero-shot segmentation models, significantly enhancing its versatility. Extensive qualitative and quantitative evaluations demonstrate that Gaga performs favorably against state-of-the-art methods, emphasizing its potential for real-world applications such as scene understanding and manipulation.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2404.07977.pdf) | [🌐 Project Page](https://www.gaga.gallery/) | [💻 Code](https://github.com/weijielyu/Gaga)
+  
 ## 2023:
 ### 1. [CVPR '24] GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting 
 **Authors**: Yiwen Chen, Zilong Chen, Chi Zhang, Feng Wang, Xiaofeng Yang, Yikai Wang, Zhongang Cai, Lei Yang, Huaping Liu, Guosheng Lin
@@ -2167,7 +2196,7 @@ Recent efforts in using 3D Gaussians for scene reconstruction and novel view syn
 We introduce StyleGaussian, a novel 3D style transfer technique that allows instant transfer of any image's style to a 3D scene at 10 frames per second (fps). Leveraging 3D Gaussian Splatting (3DGS), StyleGaussian achieves style transfer without compromising its real-time rendering ability and multi-view consistency. It achieves instant style transfer with three steps: embedding, transfer, and decoding. Initially, 2D VGG scene features are embedded into reconstructed 3D Gaussians. Next, the embedded features are transformed according to a reference style image. Finally, the transformed features are decoded into the stylized RGB. StyleGaussian has two novel designs. The first is an efficient feature rendering strategy that first renders low-dimensional features and then maps them into high-dimensional features while embedding VGG features. It cuts the memory consumption significantly and enables 3DGS to render the high-dimensional memory-intensive features. The second is a K-nearest-neighbor-based 3D CNN. Working as the decoder for the stylized features, it eliminates the 2D CNN operations that compromise strict multi-view consistency. Extensive experiments show that StyleGaussian achieves instant 3D stylization with superior stylization quality while preserving real-time rendering and strict multi-view consistency.
 </details>
 
-  [📄 Paper](https://arxiv.org/pdf/2403.04926.pdf) | [🌐 Project Page](https://kunhao-liu.github.io/StyleGaussian/) | [💻 Code](https://github.com/Kunhao-Liu/StyleGaussian)  
+  [📄 Paper](https://arxiv.org/pdf/2403.07807.pdf) | [🌐 Project Page](https://kunhao-liu.github.io/StyleGaussian/) | [💻 Code](https://github.com/Kunhao-Liu/StyleGaussian)  
 
 ### 13. Gaussian Splatting in Style 
 **Authors**: Abhishek Saroha, Mariia Gladkova, Cecilia Curreli, Tarun Yenamandra, Daniel Cremers 
@@ -2912,6 +2941,7 @@ Localization and mapping are critical tasks for various applications such as aut
 - [WebGL Viewer 3](https://github.com/BladeTransformerLLC/gauzilla)
 - [WebGPU Viewer 1](https://github.com/cvlab-epfl/gaussian-splatting-web)
 - [WebGPU Viewer 2](https://github.com/MarcusAndreasSvensson/gaussian-splatting-webgpu)
+- [WebGPU Viewer 3](https://github.com/KeKsBoTer/web-splat)
 - [Three.js](https://github.com/mkkellogg/GaussianSplats3D)
 - [A-Frame](https://github.com/quadjr/aframe-gaussian-splatting)
 - [Nerfstudio Unofficial](https://github.com/yzslab/nerfstudio/tree/gaussian_splatting)
@@ -2927,6 +2957,7 @@ Localization and mapping are critical tasks for various applications such as aut
 - [3DGS.cpp](https://github.com/shg8/3DGS.cpp) - cross-platform, high performance 3DGS renderer in C++ and Vulkan Compute, supporting Windows, macOS, Linux, iOS, and visionOS
 - [Gaussian Viewer](https://github.com/Florian-Barthel/gaussian_viewer) - Loads also Compact3D plys.
 - [spaTV](https://github.com/antimatter15/splaTV) - WebGL Viewer for 4D Gaussians (based on SpaceTime Gaussian) with demo [here](http://antimatter15.com/splaTV/)
+- [Taichi Viewer](https://github.com/uc-vision/splat-viewer)
 
 ### Utilities
 - [Kapture](https://github.com/naver/kapture) - A unified data format to facilitate visual localization and structure from motion e.g. for bundler to colmap model conversion
